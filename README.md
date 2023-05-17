@@ -1,8 +1,15 @@
 # TenisApp
 
-The Solution is Composed on 2 Main Projects 
-.Net 6 WebAPI Project => the Main Purpose of the App
-XUnit Project => the UnitTest Project in order to test the App
+The Solution is Composed on 2 Main Projects :
+
+
+1) .Net 6 WebAPI Project => the Main Purpose of the App
+
+
+2) XUnit Project => the UnitTest Project in order to test the App
+
+---------------------------------------------------------------------------------------------------------------------
+
 
 The App is Hosted on : https://mytennisapp.azurewebsites.net/
 
