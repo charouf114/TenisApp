@@ -10,7 +10,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddSingleton<IPlayerRepository, PlayerRepository>();
-builder.Services.AddScoped<IPlayerService, PlayerService>();
+builder.Services.AddSingleton<IPlayerService, PlayerService>();
 
 var app = builder.Build();
 

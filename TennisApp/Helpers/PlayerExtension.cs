@@ -18,7 +18,8 @@ namespace TennisApp.Helpers
                 Height = player.Data.Height,
                 Weight = player.Data.Weight,
                 Age = player.Data.Age,
-                CountryCode = player.Country.Code
+                CountryCode = player.Country.Code,
+                Rank = player.Data.Rank
             };
         }
     }

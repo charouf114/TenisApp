@@ -48,7 +48,8 @@ namespace TennisApp.Services
 
         private double getAvgImc()
         {
-            return _players.Select(player => player.Data.Weight / (player.Data.Height * player.Data.Height)).Average();
+            // We Need To Multiply By Ten because we need to Do Weight/1000 and height * 100 twice
+            return _players.Select(player => player.Data.Weight * 10 / (double)(player.Data.Height * player.Data.Height)).Average();
         }
 
         private string getCountryCode()

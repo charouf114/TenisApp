@@ -6,3 +6,5 @@
 /TennisApp/obj
 /TennisApp/.vs/TennisApp
 /TennisApp/.vs/ProjectEvaluation
+/TennisTests/bin/Debug/net6.0
+/TennisTests/obj

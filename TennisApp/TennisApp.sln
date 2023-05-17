@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TennisApp", "TennisApp.csproj", "{63F296FB-B0A2-421D-8623-4F274B9E64CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TennisApp", "TennisApp.csproj", "{63F296FB-B0A2-421D-8623-4F274B9E64CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TennisTests", "..\TennisTests\TennisTests.csproj", "{D59026A3-2131-4D97-B26C-1F6D289C90F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{63F296FB-B0A2-421D-8623-4F274B9E64CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63F296FB-B0A2-421D-8623-4F274B9E64CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63F296FB-B0A2-421D-8623-4F274B9E64CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D59026A3-2131-4D97-B26C-1F6D289C90F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D59026A3-2131-4D97-B26C-1F6D289C90F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D59026A3-2131-4D97-B26C-1F6D289C90F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D59026A3-2131-4D97-B26C-1F6D289C90F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
